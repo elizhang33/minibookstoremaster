@@ -1,0 +1,80 @@
+html {
+  font-family: Georgia;
+}
+
+/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8dab7f;
+}
+
+body {
+background-image: linear-gradient(to bottom right, #FFFFFF, #FF77CC, #8B00FE, #0033CC);
+}
+
+li {
+  float: left;
+  color: #1e2019;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #3a5b38;
+  transition: 0.2s;
+}
+
+.active {
+  background-color: #544b3d;
+}
+
+/* https://www.w3schools.com/css/css3_buttons.asp */
+.button {
+  background-color: #544b3d;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+/* https://www.w3schools.com/howto/howto_js_alert.asp */
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #807c79;
+  color: white;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}

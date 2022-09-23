@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ 
+
+
+<html>
+<head>
+       <title>Duckquack---A book store</title>
+       <link rel="stylesheet" href="style.css" />
+       <style>
+       		h3 {color: Green;}
+       </style>
+</head>
+
+<body bgcolor="white">
+
+<h3>
+	<img src="duck.jpg" alt="duck logo" style= "float:left;width:42px;height:42px;">
+	Welcome to Duckquack, the book store, hope you will find your book from here!
+
+</h3>
+<nav>	
+	<a href="duck_main_page.html">HOME</a> | 
+	<a href="books.html">BOOKS</a> | 
+	<a href="find_order.html">FIND ORDER</a> | 
+	<a href="manager.html">MANAGER PAGE</a> 
+
+</nav>
+
+<hr>
+
+<h2>Book List:</h2>
+<a href="books.php">Show results</a> 
+
+
+<hr>
+
+<p>
+<a href="books.txt" >Contents</a>
+of this page.
+<p>Need help? call 800-xxx-xxxx <p>
+<p>
+
+
+</body>
+</html>
